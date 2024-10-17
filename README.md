@@ -4,6 +4,6 @@
 - Subdomain , DNS , Port Scanning etc..
 
 
-### Working on Pre-Commit Meeting
+### Working and learning on Pre-Commit hooks 
 
 
