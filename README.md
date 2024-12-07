@@ -36,10 +36,11 @@ options:
 
 
 ## Commands
+* Get the Domain Records
 ```
- -d -- Get the domain records
 [user@user] $ python3 master.py -d google.com
-
+```
+```
  -p -- Get the open ports - port scanning.
 [user@user] $ python3 master.py -p google.com
 
