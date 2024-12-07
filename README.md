@@ -38,12 +38,24 @@ options:
 ## Commands
 * Get the Domain Records
 ```
-[user@user] $ python3 master.py -d google.com
+python3 master.py -d example.com
 ```
+* Get the open ports - port scanning.
 ```
- -p -- Get the open ports - port scanning.
-[user@user] $ python3 master.py -p google.com
+python3 master.py -p example.com
+```
+* Get the subdomain of the target system.
+```
+python3 master.py -sd example.com
+```
+* Get the directory of the target system.
+```
+python3 master.py -dir example.com
+```
+* Get the SSL Certificate of the target System.
+```
+python3 master.py -ssl example.com
+```
 
-```
 
 
