@@ -1,9 +1,20 @@
 # StreamLine Recon CLI Tool 
 
-Creating a tool that makes gathering information about targets  and easier by automating the reconnaissance process with a straightforward command-line interface.
-- Subdomain , DNS , Port Scanning etc..
+  Recon CLI Tool is a versatile reconnaissance tool designed for cybersecurity professionals. It automates common information gathering tasks such as domain lookups, port scanning, subdomain enumeration, reverse DNS, WHOIS lookups, SSL certificate retrieval, GeoIP lookups, and more. The tool is developed in Python and is intended to provide quick, automated reconnaissance during cybersecurity assessments.
 
-* Right Now the Help stream (Need to Update more features)
+## Features
+
+  * Domain Information: Fetch A, MX, NS, and TXT records for a given domain.
+  * Port Scanning: Scan for open ports on a given IP address.
+  * Subdomain Enumeration: Discover subdomains associated with a domain.
+  * Directory Bruteforce: Brute force directories on a web server.
+  * Reverse DNS Lookup: Get reverse DNS information for an IP address.
+  * Shodan Integration: Perform Shodan lookups using an API key.
+  * WHOIS Lookup: Retrieve WHOIS data for domain registration details.
+  * SSL Certificate Information: Get detailed SSL certificate info for a domain.
+  * HTTP Headers: Retrieve and display HTTP response headers from a server.
+  * GeoIP Lookup: Perform a geographical lookup for an IP address.
+  * Encoding/Decoding: Decode Base64, Base32, and ROT13 encoded strings.
 
 ```
 usage: master.py [-h] [-auto] [-d] [-p] [-sd] [-dir] [-ip] [-shodan] [-whois]
