@@ -61,8 +61,15 @@ options:
 ### 1. **Auto Process Mode (Under Construction)**
    Initiates automatic processing (Currently under development).
    ```bash
-   python recon.py -auto
+   python master.py -auto
 ```
+### 2. **Domain Information**
+  Retrieves DNS information (A, MX, NS, TXT records) for a target domain.
+   ```bash
+  python master.py -d example.com
+```
+
+
 ### Working and learning on Pre-Commit hooks 
 
 
