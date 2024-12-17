@@ -27,6 +27,10 @@
    ```
    pip install -r requirements.txt
    ```
+   
+## Usage
+
+The tool operates via the command line. Below are the available arguments and how to use them:
 
 ```
 usage: master.py [-h] [-auto] [-d] [-p] [-sd] [-dir] [-ip] [-shodan] [-whois]
