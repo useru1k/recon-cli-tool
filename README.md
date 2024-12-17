@@ -68,32 +68,50 @@ options:
    ```bash
   python master.py -d example.com
 ```
-
+### 3. **Port Scanning**
+  Performs a port scan on the provided target IP address.
+   ```bash
+  python master.py -p example.com
+```
+### 4. **Subdomain Enumeration**
+Finds subdomains for the given domain.
+```bash
+  python master.py -sd example.com
+```
+### 5. **Directory Brute-Forcing**
+  Performs directory brute-forcing on a given web server.
+   ```bash
+  python master.py -dir example.com
+```
+### 6. **SSL Certificate Information**
+  Retrieves SSL certificate details for a domain.
+   ```bash
+  python master.py -ssl example.com
+```
+### 7. **HTTP Headers**
+  Retrieves HTTP headers from a web server.
+   ```bash
+  python master.py -hdr example.com
+```
+### 8. **GeoIP Lookup**
+  Perform a geographical lookup based on an IP address.
+   ```bash
+  python master.py -geo example.com
+```
+### 9. **Base64 Decoding**
+  Decodes a Base64 encoded string.
+   ```bash
+  python master.py -bs64 <Base64_String>
+```
+### 10. **ROT13 Decoding**
+  Decodes a ROT13 encoded string.
+   ```bash
+  python master.py -rot13 <ROT13_String>
+```
+### 11. **Base32 Decoding**
+  Decodes a Base32 encoded string.
+   ```bash
+  python master.py -bs32 <Base32_String>
+```
 
 ### Working and learning on Pre-Commit hooks 
-
-
-## Commands
-* Get the Domain Records
-```
-python3 master.py -d example.com
-```
-* Get the open ports - port scanning.
-```
-python3 master.py -p example.com
-```
-* Get the subdomain of the target system.
-```
-python3 master.py -sd example.com
-```
-* Get the directory of the target system.
-```
-python3 master.py -dir example.com
-```
-* Get the SSL Certificate of the target System.
-```
-python3 master.py -ssl example.com
-```
-
-
-
