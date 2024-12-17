@@ -58,7 +58,11 @@ options:
   -bs32 , --base32      Decode the base322 String
 
 ```
-
+### 1. **Auto Process Mode (Under Construction)**
+   Initiates automatic processing (Currently under development).
+   ```bash
+   python recon.py -auto
+```
 ### Working and learning on Pre-Commit hooks 
 
 
