@@ -20,7 +20,7 @@
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/recon-cli-tool.git
+   git clone [https://github.com/yourusername/recon-cli-tool.git](https://github.com/useru1k/recon-cli-tool.git)
    cd recon-cli-tool
    ```
 2. Install required dependencies:
