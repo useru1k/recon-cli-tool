@@ -87,7 +87,7 @@ def scan_port(ip,port):
         pass
     return None
 
-# without the table format
+# without the table forma
 # def geoip_lookup(ip):
 #     """Perform GeoIP lookup for an IP address."""
 #     try:
