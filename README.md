@@ -16,6 +16,18 @@
   * GeoIP Lookup: Perform a geographical lookup for an IP address.
   * Encoding/Decoding: Decode Base64, Base32, and ROT13 encoded strings.
 
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/recon-cli-tool.git
+   cd recon-cli-tool
+   ```
+2. Install required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
 ```
 usage: master.py [-h] [-auto] [-d] [-p] [-sd] [-dir] [-ip] [-shodan] [-whois]
                  [-ssl] [-hdr] [-geo] [-bs64] [-rot13] [-bs32]
