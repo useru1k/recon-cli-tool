@@ -92,7 +92,7 @@ Finds subdomains for the given domain.
 ### 7. **HTTP Headers**
   Retrieves HTTP headers from a web server.
    ```bash
-  python master.py -hdr example.com
+  python master.py -hdr http://example.com
 ```
 ### 8. **GeoIP Lookup**
   Perform a geographical lookup based on an IP address.
