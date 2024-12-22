@@ -22,7 +22,7 @@ sub = [
     "status", "video", "download", "events", "jobs", "signup", "register",
     "analytics", "play", "cdn", "assets", "mailing", "tickets", "profile",
     "help", "wiki", "sandbox", "testbed", "resources", "partner", "secure",
-    "mobile", "blogger", "oauth", "api2", "legacy"
+    "mobile", "blogger", "oauth", "legacy"
 ]
 
 directories_list = [
