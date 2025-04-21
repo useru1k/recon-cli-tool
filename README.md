@@ -1,5 +1,5 @@
 ##### ! Under Development ! - Working and learning on Pre-Commit hooks 
-# StreamLine Recon CLI Tool 
+# StreamLine Recon CLI Tool [InfoGrabber]
 
   Recon CLI Tool is a versatile reconnaissance tool designed for cybersecurity professionals. It automates common information gathering tasks such as domain lookups, port scanning, subdomain enumeration, reverse DNS, WHOIS lookups, SSL certificate retrieval, GeoIP lookups, and more. The tool is developed in Python and is intended to provide quick, automated reconnaissance during cybersecurity assessments.
 
